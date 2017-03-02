@@ -1,0 +1,163 @@
+body{margin:0px auto;}
+
+@font-face {font-family: AlegreyaSans_Regular; src: url(Fonts/AlegreyaSans-Regular.ttf);}
+@font-face {font-family: AlegreyaSans_Italic; src: url(Fonts/AlegreyaSans-Italic.ttf);}
+@font-face {font-family: AlegreyaSans_Medium; src: url(Fonts/AlegreyaSans-Medium.ttf);}
+@font-face {font-family: AlegreyaSans_MediumItalic; src: url(Fonts/AlegreyaSans-MediumItalic.ttf);}
+@font-face {font-family: AlegreyaSans_Bold; src: url(Fonts/AlegreyaSans-Bold.ttf);}
+@font-face {font-family: AlegreyaSans_BoldItalic; src: url(Fonts/AlegreyaSans-BoldItalic.ttf);}
+@font-face {font-family: AlegreyaSans_ExtraBold; src: url(Fonts/AlegreyaSans-ExtraBold.ttf);}
+@font-face {font-family: AlegreyaSans_ExtraBoldItalic; src: url(Fonts/AlegreyaSans-ExtraBoldItalic.ttf);}
+@font-face {font-family: AlegreyaSans_Black; src: url(Fonts/AlegreyaSans-Black.ttf);}
+@font-face {font-family: AlegreyaSans_BlackItalic; src: url(Fonts/AlegreyaSans-BlackItalic.ttf);}
+
+h1{font-family: AlegreyaSans_Bold; font-size:36px; color:#172816; line-height:30px; text-align:center;}
+h2{font-family: AlegreyaSans_Bold; font-size:22px; color:#172816; line-height:20px; text-align:center;}
+h3{font-family: AlegreyaSans_Bold; font-size:16px; color:#172816; line-height:14px; margin:10px 5px;}
+main{width:1000px; height:1000px; margin:0px auto;}
+.mainpjust{font-family: AlegreyaSans_Regular; font-size:18px; color:#172816; line-height:18px; text-align:justify;}
+.mainpcent{font-family: AlegreyaSans_Regular; font-size:18px; color:#172816; line-height:18px; text-align:center;}
+article p{font-family: AlegreyaSans_Regular; font-size:16px; color:#172816; line-height:20px; margin:10px 5px;}
+footer{margin-top:200px; clear:left;}
+footer p{font-family: AlegreyaSans_Regular; font-size:12px; color:#758f8e; line-height:10px; text-align:center;}
+.ratestable{width:400px; margin:0px auto;}
+thead{text-align:left;}
+.images{width:45%; height:auto; margin:20px 2.5%; float:left; transition:all 0.4s;}
+.images:hover{transform: rotateY(360deg);}
+.largeimage{width:95%; height:auto; margin:20px 2.5%; float:left; transition:all 0.4s;}
+.largeimage:hover{transform: rotateX(360deg);}
+.staticimages{width:45%; height:auto; margin:20px 2.5%; float:left; transition:all 0.4s;}
+.staticlargeimage{width:95%; height:auto; margin:20px 2.5%; float:left; transition:all 0.4s;}
+#enldiv{text-align:center; width:100%;}
+#enlargedimg{width:90%; height:auto; margin:10px 5%;}
+#imgreturn{font-family: AlegreyaSans_Regular; font-size:22px; color:white; text-decoration:none;}
+#imgreturn:hover{font-family: AlegreyaSans_Regular; font-size:22px; color:yellow;}
+.instructors{width:50%; float:left;}
+.instructors img{width:95%; height:auto; margin:10px 2.5%;}
+
+/*Nav*/
+nav{width:200px; position:absolute; left:0px; top:0px;}
+#navimg{width:200px; height:100px; margin-bottom:3px;}
+nav div{
+	background: #93a843;
+	background: linear-gradient(to bottom right, #93a843, #e2e095, #93a843);
+	background: -webkit-linear-gradient(left top, #93a843, #e2e095, #93a843);
+	background: -o-linear-gradient(bottom right, #93a843, #e2e095, #93a843);
+	background: -moz-linear-gradient(bottom right, #93a843, #e2e095, #93a843);
+	width:150px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	margin-bottom:3px;
+	transition:all 0.7s;
+	font-family: AlegreyaSans_Medium;
+	font-size:16px;
+	border-radius: 0px 15px 15px 0px;}
+nav div:hover{
+	background: #8a9b47;
+	background: linear-gradient(to bottom right, #8a9b47, #d2d090, #8a9b47);
+	background: -webkit-linear-gradient(left top, #8a9b47, #d2d090, #8a9b47);
+	background: -o-linear-gradient(bottom right, #8a9b47, #d2d090, #8a9b47);
+	background: -moz-linear-gradient(bottom right, #8a9b47, #d2d090, #8a9b47);
+	width:200px;
+	height:50px;
+	line-height:50px;
+	font-size:22px;
+	border-radius: 0px 25px 25px 0px;}
+nav div a{color:#172816; text-decoration:none;}
+nav div a:hover{color:white;}
+nav div a:active{color:#7f2726;}
+nav div a:visited{color:#172816;}
+
+/*Home*/
+#bubblebox{width:100%; margin:10px auto;}
+#bubbles{position:absolute; margin-left:20px;}
+#bubbles > div{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	margin:24px 10px 0px 10px;
+	background:rgba(0,0,0,.1);
+	text-align:center;
+	border:2px solid #999;
+	border-radius:100%;
+	font-size:17px;
+	text-decoration:none;
+	transition: background 0.3s linear 0s;
+	cursor:pointer;}
+#rotatingimages{margin:0px auto; transition:opacity 0.3s linear 0s; font-family: Arial;}
+#rotatingimages > img{width:100%; height:auto;}
+
+/*Right Article*/
+article{
+	background: white;
+	background: linear-gradient(to bottom, #d2d090, white);
+	background: -webkit-linear-gradient(top, #d2d090, white);
+	background: -o-linear-gradient(bottom, #d2d090, white);
+	background: -moz-linear-gradient(top, #d2d090, white);
+	position: absolute;
+	right:0px;
+	top:0px;
+	width:200px;
+	height:500px;
+	text-align:center;}
+article img{width:100%; height:auto;}
+
+/*Modal*/
+#myImg1 {
+	transition: 0.3s;
+	width:100%;
+	height:auto;}
+#myImg1:hover {opacity: 0.7;}
+#myModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);}
+#img01 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;}
+#caption {
+	font-family: AlegreyaSans_Regular;
+	font-size:18px;
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    height: 150px;}
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}}
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;}
+.close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;}
+@media only screen and (max-width: 700px){#img01{width: 100%;}}
